@@ -47,5 +47,17 @@
 ////echo $philippe;
 ////echo $adele;
 
+require_once 'classes/abstracts/Animal.php';
+require_once 'classes/abstracts/Felin.php';
+require_once 'classes/abstracts/Lion.php';
+require_once 'classes/abstracts/Tigre.php';
 
+//$animal = new Animal("Vert", 55);
+//$animal->manger();
+//$felin = new Felin("Vert", 55);
 
+$lion = new Lion("Mauve", 200);
+echo $lion;
+
+$tigre = new Tigre("Orange Zebré", 300);
+echo $tigre;
