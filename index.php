@@ -1,5 +1,5 @@
 <?php
-//require_once 'Fruit.php';
+//require_once 'classes/Fruit.php';
 //
 //$nom = "Joachim";//Variable de type primitif
 //var_dump($nom);
@@ -15,8 +15,8 @@
 //var_dump($autreOrange);
 //
 //var_dump($autreOrange === $orange);
-
-//require_once 'Compte.php';
+//
+//require_once 'classes/Compte.php';
 //
 //$compteLasso = new Compte("C001");
 //
@@ -31,12 +31,21 @@
 //echo "<h1>{$nom}</h1>";
 //echo "<h1>{$compteLasso}</h1>";
 
-require_once "Personne.php";
+//require_once "classes/Personne.php";
+//
+//$philippe = new Personne("Philippe", 37);
+//echo $philippe;
+//echo "<h1>".Personne::$compteur."</h1>";
+//echo "<h1>".Personne::COULEUR."</h1>";
+//
+//$adele = new Personne("Adele", 36);
+//echo $adele;
+//echo "<h1>".Personne::$compteur."</h1>";
+//
+////$philippe->seMarier($adele);
+//
+////echo $philippe;
+////echo $adele;
 
-$philippe = new Personne("Philippe", 37);
-$adele = new Personne("Adele", 36);
 
-
-
-$philippe->seMarier($adele);
 
