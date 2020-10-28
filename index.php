@@ -61,3 +61,4 @@ echo $lion;
 
 $tigre = new Tigre("Orange Zebré", 300);
 echo $tigre;
+
